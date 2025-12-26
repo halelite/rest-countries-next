@@ -19,10 +19,13 @@
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
 *.pem
+*.log
+Thumbs.db
 
 # debug
 npm-debug.log*
@@ -39,3 +42,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Design files
+*.sketch
+*.fig
+*.xd
+
+# IDEs and editors
+/.idea
+/.vscode
+*.swp
+*.swo
