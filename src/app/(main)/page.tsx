@@ -81,7 +81,7 @@ export default function Home() {
 					No countries found!
 				</div>
 			) : (
-				<div className="grid grid-cols-1 sm:grid-cols-2 px-[6vw] sm:px-0 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-12">
+				<div className="grid grid-cols-1 sm:grid-cols-2 px-[6vw] sm:px-0 md:grid-cols-3 lg:grid-cols-4 gap-12">
 					{countries
 						?.slice(0, page + 1)
 						?.map((countryPage: any[], index: number) => (
